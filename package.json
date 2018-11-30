@@ -1,0 +1,26 @@
+{
+  "name": "vegas-bot",
+  "version": "0.0.1",
+  "description": "Vegas chatbot based on Azure-bot with Slack interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chatbot",
+    "azure",
+    "slack"
+  ],
+  "author": "Lionel Oto",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "pino": "^5.9.0",
+    "restify": "^7.2.3",
+    "restify-await-promise": "^2.1.0",
+    "uuid": "^3.3.2"
+  }
+}
